@@ -32,10 +32,10 @@ Applicatiosn that are installed throw this scipt are:
    - Microsoft Powershell 5.1
    - Microsoft Windows Defender (Security.microsoft.com-->Settings-->Endpoints-->Onboarding)
    - Ghisler Total Commander (https://totalcommander.ch/1103/tcmd1103x64.exe)
-
+                                                         
+****************************************************************
 Thanks:                                                 
 My thanks to the Author of the Baseline Powershell Script and the Author of the Windows Path Enumerate Script.
-                                                         
 ****************************************************************
 This Script is created by Ronald Bok owner of the Firm T.E.S. - Com.                                          
 You may make modifications in order to make the script better. But please let me know so i                     
