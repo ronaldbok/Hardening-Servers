@@ -6,12 +6,18 @@ Applies a Default Configuration to a new Windows Server, or Update the Security 
 DESCRIPTION                                             
 This Script is built to make Windows Servers Compliant with the Recommendations that are done in Windows Security Center.
 But Also Applies Default settings to the Server and Install Applications that are needed or that you want to install always
-                                                         
+
+At this moment the scripts is for the Following Operating Systems:
+-	Windows Server 2008R2
+-	Windows Server 2012R2
+-	Windows Server 2019
+-	Windows Server 2022
+***********************************************************
 REQUIREMENTS:                                           
 PowerShell Needs to be run in Administrative mode.
 PowerShell execution policy must be configured to allow script execution.
 For example, with a command such as the following: Set-ExecutionPolicy RemoteSigned        
-                                                        
+***********************************************************
 Explanation:                                            
 There are some Parameters that are needed for the installation of Azure Arc and Azure Analytics           
 Workspace Agent. Also there is a variable that determine the Reboot end the Timeout in Seconds,                  
