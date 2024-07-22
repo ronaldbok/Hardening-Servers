@@ -4,28 +4,28 @@ SYNOPSIS
 Applies a Default Configuration to a new Windows Server, or Update the Security on an Existing Server.           
 ***********************************************************
 DESCRIPTION                                             
-Applies a Default Configuration to a new Windows Server, or Update the Security on an Existing Server.           
+This Script is built to make Windows Servers Compliant with the Recommendations that are done in Windows Security Center.
+But Also Applies Default settings to the Server and Install Applications that are needed or that you want to install always
                                                          
 REQUIREMENTS:                                           
-Powershell Needs to be run in Administrative mode.
+PowerShell Needs to be run in Administrative mode.
 PowerShell execution policy must be configured to allow script execution.
-For example, with a command such as the following:                   
-        -Set-ExecutionPolicy RemoteSigned        
+For example, with a command such as the following: Set-ExecutionPolicy RemoteSigned        
                                                         
-Explenation:                                            
-There are some Parameters that are needed for the installation of Azure Arc and Azure Analitics           
-Worksapce Agent. Also there is a variable that determend the Reboot end the Timeout in Seconds,                  
+Explanation:                                            
+There are some Parameters that are needed for the installation of Azure Arc and Azure Analytics           
+Workspace Agent. Also there is a variable that determine the Reboot end the Timeout in Seconds,                  
 that will we used to reboot the Server at the end of the Script                                                  
                                                         
-Also You need to download some scripts for the Security Portal to Onboard Devices to defendere.
-I am looing for a Solution to Implented these scripts into the hardening scripts. But Micrsoft
-Only Release the Script for a Working periode of 10 day's. If someone knows how to implement it
-To the hardingscript please let me know.
+Also You need to download some scripts for the Security Portal to Onboard Devices to defender.
+I am looking for a Solution to Implement these scripts into the hardening scripts. But Microsoft
+Only Release the Script for a Working for 10 devices. If someone knows how to implement it
+To the Harding script please let me know.
 
-Then ther are some Applications that will be installed by the scripts. In the Varibale 
-difintion you need to modify the Parameters for $true or $False to determin what applications there will be installed.                   
-To make the Installation Posiable you will need to download the Latest installations files and put them in the Applications Folder.
-Applicatiosn that are installed throw this scipt are:
+Then there are some Applications that will be installed by the scripts. In the Variable 
+definition you need to modify the Parameters for $true or $False to determine what applications there will be installed.                   
+To make the Installation Possible you will need to download the Latest installations files and put them in the Applications Folder.
+Applications that are installed throw this script are:
    - Microsoft Edge (https://www.microsoft.com/nl-nl/edge/business/download?form=MA13FJ)
    - Microsoft LAPS (https://www.microsoft.com/en-us/download/details.aspx?id=46899)
    - Microsoft Log Analitics agent 
@@ -35,7 +35,7 @@ Applicatiosn that are installed throw this scipt are:
                                                          
 ****************************************************************
 Thanks:                                                 
-My thanks to the Author of the Baseline Powershell Script and the Author of the Windows Path Enumerate Script.
+My thanks to the Author of the Baseline PowerShell Script and the Author of the Windows Path Enumerate Script.
 ****************************************************************
 This Script is created by Ronald Bok owner of the Firm T.E.S. - Com.                                          
 You may make modifications in order to make the script better. But please let me know so i                     
