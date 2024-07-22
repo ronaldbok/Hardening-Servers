@@ -8,8 +8,8 @@ Applies a Default Configuration to a new Windows Server, or Update the Security 
                                                          
 REQUIREMENTS:                                           
 Powershell Needs to be run in Administrative mode.
-PowerShell execution policy must be configured to allow script execution; 
-for example, with a command such as the following:                   
+PowerShell execution policy must be configured to allow script execution.
+For example, with a command such as the following:                   
         -Set-ExecutionPolicy RemoteSigned        
                                                         
 Explenation:                                            
