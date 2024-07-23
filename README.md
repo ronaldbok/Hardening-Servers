@@ -35,7 +35,7 @@ Applications that are installed throw this script are:
    - Microsoft Edge (https://www.microsoft.com/nl-nl/edge/business/download?form=MA13FJ)
    - Microsoft LAPS (https://www.microsoft.com/en-us/download/details.aspx?id=46899)
    - Microsoft Log Analitics agent 
-   - Microsoft Powershell 5.1
+   - Microsoft Powershell 5.1 (Windows 2008r2 and Windows 2012R2 Only)
    - Microsoft Windows Defender (Security.microsoft.com-->Settings-->Endpoints-->Onboarding)
    - Ghisler Total Commander (https://totalcommander.ch/1103/tcmd1103x64.exe)
                                                          
