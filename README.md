@@ -8,10 +8,9 @@ This Script is built to make Windows Servers Compliant with the Recommendations 
 But Also Applies Default settings to the Server and Install Applications that are needed or that you want to install always
 
 At this moment the scripts is for the Following Operating Systems:
--	Windows Server 2008R2
--	Windows Server 2012R2
 -	Windows Server 2019
 -	Windows Server 2022
+-	Windows Server 2025
 ***********************************************************
 REQUIREMENTS:
 Powershell 5.1 must be used. So in Older Servers this will be installed during the script. But installing Powershell 5.1 needs a reboot.
