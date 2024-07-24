@@ -13,7 +13,8 @@ At this moment the scripts is for the Following Operating Systems:
 -	Windows Server 2019
 -	Windows Server 2022
 ***********************************************************
-REQUIREMENTS:                                           
+REQUIREMENTS:
+Powershell 5.1 must be used. So in Older Servers this will be installed during the script. But installing Powershell 5.1 needs a reboot.
 PowerShell Needs to be run in Administrative mode.
 PowerShell execution policy must be configured to allow script execution.
 For example, with a command such as the following: Set-ExecutionPolicy RemoteSigned        
